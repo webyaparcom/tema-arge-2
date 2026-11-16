@@ -1,0 +1,46 @@
+{
+  "id": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "Misyon",
+    "en": "mission, our mission, corporate responsibility",
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+  },
+  "path": "misyon",
+  "icon": "flag",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Optik ölçüm ve görüntü işleme sorunlarını tekrarlanabilir deneylerle çözmek ve her sonucu yazılı olarak paylaşmak.</p>",
+    "en": "<h2>Our mission</h2>\n<p>To solve optical measurement and image-processing problems with repeatable experiments and share every result in writing.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>حل مشكلات القياس البصري ومعالجة الصور بتجارب قابلة للتكرار ومشاركة كل نتيجة كتابيًا.</p>"
+  },
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "date": "2026-11-16T22:35:29.576Z",
+  "update": "2026-11-16T23:11:36.828Z",
+  "sablonIzi": "a8a6ac234dced5af",
+  "sablonIziDil": {
+    "en": "3f5f6c628dec679f",
+    "ar": "c861990d3945ecd7"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "dn6te2p0f1",
+  "name": {
+    "tr": "Sorular",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+  },
+  "description": {
+    "tr": "Bir projeye başlamadan önce sorulanlar.",
+    "en": "Questions asked before a project starts.",
+    "ar": "أسئلة تُطرح قبل بدء المشروع."
+  },
+  "keyword": {
+    "tr": "sss, soru cevap",
+    "en": "faq, questions",
+    "ar": "أسئلة وأجوبة"
+  },
+  "path": "sorular",
+  "icon": "help",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "eaxkaw"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sorular",
+    "en": "FAQ",
+    "ar": "الأسئلة"
+  },
+  "date": "2026-11-16T22:35:29.998Z",
+  "update": "2026-11-16T23:11:36.810Z"
+}
