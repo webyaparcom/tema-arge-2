@@ -1,0 +1,97 @@
+<section class="modulex-iletisim-terminal{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-iletisim-terminal-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* iletisim-terminal — Ailede kod/geliştirici diline ait tek modül: pencere kromu, monospace satır ızgarası, clip-path daktilo girişi (RTL'de ters yön) ve steps() imleç animasyonu; iletisim-koyu-panel'in tipografik satırlarından farklı olarak arayüz metaforu. */
+  .modulex-iletisim-terminal { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-iletisim-terminal *, .modulex-iletisim-terminal *::before, .modulex-iletisim-terminal *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-iletisim-terminal :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-iletisim-terminal :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-iletisim-terminal :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-iletisim-terminal :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-iletisim-terminal img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-iletisim-terminal) img { height: auto; }
+  .modulex-iletisim-terminal [hidden] { display: none !important; }
+  .modulex-iletisim-terminal :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-iletisim-terminal :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-iletisim-terminal-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-iletisim-terminal-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-iletisim-terminal--bassiz .modulex-iletisim-terminal-bas { display: none; }
+  .modulex-iletisim-terminal-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-iletisim-terminal-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-iletisim-terminal-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-iletisim-terminal-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-iletisim-terminal-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-iletisim-terminal-dugme:hover { transform: translateY(-2px); }
+  .modulex-iletisim-terminal-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-iletisim-terminal-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-iletisim-terminal-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-iletisim-terminal-pencere { max-inline-size: 980px; margin-inline: auto; overflow: hidden; border: 1px solid --cizgi--; border-radius: 14px; background: color-mix(in srgb, --text-- 4%, --bg--); box-shadow: 0 40px 90px -40px color-mix(in srgb, --accent-- 40%, transparent); transition: box-shadow 0.4s ease; }
+  .modulex-iletisim-terminal-pencere:hover { box-shadow: 0 46px 100px -40px color-mix(in srgb, --accent-- 55%, transparent); }
+  .modulex-iletisim-terminal-krom { display: flex; align-items: center; gap: 8px; padding: 12px 16px; border-block-end: 1px solid --cizgi--; background: color-mix(in srgb, --text-- 8%, --bg--); }
+  .modulex-iletisim-terminal-isik { inline-size: 12px; block-size: 12px; border-radius: 50%; background: color-mix(in srgb, --text-- 30%, transparent); }
+  .modulex-iletisim-terminal-isik:first-child { background: --accent--; }
+  .modulex-iletisim-terminal-pad { margin-inline-start: auto; color: --muted--; font-size: 0.85rem; }
+  .modulex-iletisim-terminal-ekran { display: grid; gap: 14px; padding: clamp(20px, 3.5vw, 40px); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  .modulex-iletisim-terminal-ekran .modulex-iletisim-terminal-baslik { font-family: inherit; font-size: clamp(1.5rem, 3vw, 2.3rem); letter-spacing: -0.01em; }
+  .modulex-iletisim-terminal-ekran .modulex-iletisim-terminal-ust { color: --accentInk--; letter-spacing: 0.06em; text-transform: none; }
+  .modulex-iletisim-terminal-satirlar { display: grid; gap: 4px; margin-block-start: 8px; }
+  .modulex-iletisim-terminal-satir { display: grid; grid-template-columns: minmax(150px, 0.32fr) minmax(0, 1fr); align-items: baseline; gap: 4px 18px; padding-block: 8px; border-block-end: 1px dashed --cizgi--; animation: modulex-iletisim-terminal-yaz 0.5s steps(12, end) both; animation-delay: calc(var(--i, 0) * 180ms + 200ms); }
+  @keyframes modulex-iletisim-terminal-yaz { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+  @keyframes modulex-iletisim-terminal-yazr { from { clip-path: inset(0 0 0 100%); } to { clip-path: inset(0 0 0 0); } }
+  [dir="rtl"] .modulex-iletisim-terminal-satir, :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-iletisim-terminal-satir { animation-name: modulex-iletisim-terminal-yazr; }
+  .modulex-iletisim-terminal-komut { display: inline-flex; gap: 10px; color: --accentInk--; font-weight: 700; }
+  .modulex-iletisim-terminal-istem { color: --muted--; }
+  .modulex-iletisim-terminal-cikti { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; min-width: 0; }
+  .modulex-iletisim-terminal-cikti .modulex-iletisim-terminal-eylem { font-size: 0.88rem; }
+  .modulex-iletisim-terminal-imlec { display: flex; align-items: center; gap: 10px; }
+  .modulex-iletisim-terminal-yanip { inline-size: 0.6em; block-size: 1.15em; background: --accentInk--; animation: modulex-iletisim-terminal-yanip 1s steps(1, end) infinite; }
+  @keyframes modulex-iletisim-terminal-yanip { 50% { opacity: 0; } }
+  @media (max-width: 768px) {
+    .modulex-iletisim-terminal-satir { grid-template-columns: minmax(0, 1fr); }
+    .modulex-iletisim-terminal-ekran { font-size: 0.95rem; }
+  }
+  .modulex-iletisim-terminal-kikon { flex: none; display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: color-mix(in srgb, --accent-- 14%, transparent); color: --accentInk--; font-size: 24px; }
+  .modulex-iletisim-terminal-ketiket { display: block; color: --muted--; font-size: 0.82rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; }
+  .modulex-iletisim-terminal-deger { color: inherit; font-weight: 650; text-decoration: none; overflow-wrap: anywhere; transition: color 0.2s ease; }
+  a.modulex-iletisim-terminal-deger:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-iletisim-terminal-eylem { display: inline-flex; align-items: center; gap: 6px; color: --accentInk--; font-weight: 700; text-decoration: none; transition: gap 0.2s ease; }
+  .modulex-iletisim-terminal-eylem:hover { gap: 10px; }
+  .modulex-iletisim-terminal-eylem .material-symbols-outlined { font-size: 18px; }
+  .modulex-iletisim-terminal-kopya { display: none; align-items: center; gap: 6px; min-height: 36px; padding: 6px 12px; border: 1px solid --cizgi--; border-radius: 999px; background: transparent; color: --text--; font: inherit; font-size: 0.85rem; font-weight: 650; transition: border-color 0.2s ease, background 0.2s ease; }
+  .modulex-iletisim-terminal--kjs .modulex-iletisim-terminal-kopya { display: inline-flex; }
+  .modulex-iletisim-terminal-kopya:hover { border-color: --accent--; }
+  .modulex-iletisim-terminal-kopya .material-symbols-outlined { font-size: 18px; }
+  .modulex-iletisim-terminal--kopyalandi { background: color-mix(in srgb, --accent-- 14%, transparent); }
+  .modulex-iletisim-terminal-sosyal { display: grid; gap: 10px; }
+  .modulex-iletisim-terminal-sbaslik { color: --muted--; font-size: 0.9rem; font-weight: 650; }
+  .modulex-iletisim-terminal-sliste { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-iletisim-terminal-cip { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 8px 14px; border: 1px solid --cizgi--; border-radius: 999px; color: inherit; font-weight: 650; text-decoration: none; transition: border-color 0.2s ease, transform 0.2s ease; }
+  .modulex-iletisim-terminal-cip:hover { border-color: --accent--; transform: translateY(-2px); }
+  .modulex-iletisim-terminal-cikon { font-size: 18px; }
+  .modulex-iletisim-terminal-harita { position: relative; overflow: hidden; min-height: 280px; border-radius: --yuvarlak--; background: --kartBg--; }
+  .modulex-iletisim-terminal-iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .modulex-iletisim-terminal-hdesen { position: absolute; inset: 0; display: grid; place-items: center; background-color: color-mix(in srgb, --accent-- 8%, --kartBg--); background-image: linear-gradient(color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, --text-- 7%, transparent) 1px, transparent 1px), radial-gradient(circle at 30% 40%, color-mix(in srgb, --accent-- 18%, transparent) 0 18%, transparent 19%); background-size: 36px 36px, 36px 36px, 100% 100%; }
+  .modulex-iletisim-terminal-pin { color: --accentInk--; font-size: 56px; animation: modulex-iletisim-terminal-zipla 2.4s ease-in-out infinite; }
+  @keyframes modulex-iletisim-terminal-zipla { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+  .modulex-iletisim-terminal-hyol { position: absolute; inset-block-end: 16px; inset-inline-start: 16px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 10px 16px; border-radius: 999px; background: --bg--; color: --text--; font-weight: 700; text-decoration: none; box-shadow: 0 6px 20px color-mix(in srgb, --text-- 16%, transparent); transition: transform 0.2s ease; }
+  .modulex-iletisim-terminal-hyol:hover { transform: translateY(-2px); }
+  .modulex-iletisim-terminal-hyol .material-symbols-outlined { font-size: 18px; color: --accentInk--; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-iletisim-terminal :is(.modulex-iletisim-terminal-baslik, .modulex-iletisim-terminal-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-iletisim-terminal-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-iletisim-terminal { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-iletisim-terminal *, .modulex-iletisim-terminal *::before, .modulex-iletisim-terminal *::after { animation: none !important; transition: none !important; }
+  }
+</style>

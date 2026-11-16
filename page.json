@@ -1,0 +1,111 @@
+{
+  "data": [
+    {
+      "id": "7b7ifffzz3",
+      "name": {
+        "tr": "Çalışmalar",
+        "en": "Work",
+        "ar": "الأعمال"
+      },
+      "description": {
+        "tr": "Laboratuvar düzenekleri ve iş ortağı notları.",
+        "en": "Lab rigs and partner notes.",
+        "ar": "منصات المختبر وملاحظات الشركاء."
+      },
+      "path": "hizmetler",
+      "icon": "biotech",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "juw3wc",
+          "oac1rh"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Yazarlar",
+        "en": "Writers",
+        "ar": "الكتّاب"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "edit_note",
+      "desing": {
+        "header": [],
+        "body": [
+          "361v1s"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Araştırmacılarımız ve yazdıkları deney notları (kurgusal).",
+        "en": "Our researchers and the lab notes they write (fictional).",
+        "ar": "باحثونا والمذكرات المخبرية التي يكتبونها (افتراضي)."
+      }
+    },
+    {
+      "id": "dn6te2p0f1",
+      "name": {
+        "tr": "Sorular",
+        "en": "FAQ",
+        "ar": "الأسئلة"
+      },
+      "description": {
+        "tr": "Bir projeye başlamadan önce sorulanlar.",
+        "en": "Questions asked before a project starts.",
+        "ar": "أسئلة تُطرح قبل بدء المشروع."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "eaxkaw"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 3,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "916xzf",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

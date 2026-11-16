@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Mercek Lab: Urla, İzmir’de optik sensör, kamera kalibrasyonu ve görüntü işleme üzerine çalışan Ar-Ge laboratuvarı; her projeyi deney notu olarak yayımlar. Demo site; içerik kurgusaldır.",
+    "en": "Mercek Lab: an R&D laboratory in Urla, Izmir working on optical sensors, camera calibration and image processing, publishing every project as a lab note. Demo site; content is fictional.",
+    "ar": "مختبر ميرجك: مختبر أبحاث وتطوير في أورلا بإزمير يعمل على المستشعرات البصرية ومعايرة الكاميرات ومعالجة الصور، وينشر كل مشروع كمذكرة مخبرية. موقع تجريبي؛ المحتوى افتراضي."
+  },
+  "keyword": {
+    "tr": "Ar-Ge, optik ölçüm, görüntü işleme, kamera kalibrasyonu, sensör, laboratuvar, Urla, İzmir",
+    "en": "R&D, optical measurement, image processing, camera calibration, sensor, laboratory, Urla, Izmir",
+    "ar": "أبحاث وتطوير، قياس بصري، معالجة الصور، معايرة الكاميرا، مستشعر، مختبر، إزمير"
+  },
+  "category": "Kurumsal",
+  "name": "Mercek Lab",
+  "domain": "arge-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "source-sans-3",
+    "heading": "playfair-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-naskh-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#C2421F",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "1px",
+    "--mx-radius-md": "2px",
+    "--mx-radius-lg": "3px",
+    "--mx-radius-xl": "4px"
+  },
+  "icon": "icon.png"
+}

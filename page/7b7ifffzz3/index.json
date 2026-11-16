@@ -1,0 +1,40 @@
+{
+  "id": "7b7ifffzz3",
+  "name": {
+    "tr": "Çalışmalar",
+    "en": "Work",
+    "ar": "الأعمال"
+  },
+  "description": {
+    "tr": "Laboratuvar düzenekleri ve iş ortağı notları.",
+    "en": "Lab rigs and partner notes.",
+    "ar": "منصات المختبر وملاحظات الشركاء."
+  },
+  "keyword": {
+    "tr": "optik ölçüm, görüntü işleme",
+    "en": "optical measurement, image processing",
+    "ar": "قياس بصري، معالجة الصور"
+  },
+  "path": "hizmetler",
+  "icon": "biotech",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "juw3wc",
+      "oac1rh"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Çalışmalar",
+    "en": "Work",
+    "ar": "الأعمال"
+  },
+  "date": "2026-11-16T22:35:29.963Z",
+  "update": "2026-11-16T23:11:36.781Z"
+}

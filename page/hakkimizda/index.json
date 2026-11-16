@@ -1,0 +1,46 @@
+{
+  "name": {
+    "tr": "Yazarlar",
+    "en": "Writers",
+    "ar": "الكتّاب"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "edit_note",
+  "desing": {
+    "header": [],
+    "body": [
+      "361v1s"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Araştırmacılarımız ve yazdıkları deney notları (kurgusal).",
+    "en": "Our researchers and the lab notes they write (fictional).",
+    "ar": "باحثونا والمذكرات المخبرية التي يكتبونها (افتراضي)."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Yazarlar",
+    "en": "Writers",
+    "ar": "الكتّاب"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T23:11:36.799Z",
+  "date": "2026-10-30"
+}
