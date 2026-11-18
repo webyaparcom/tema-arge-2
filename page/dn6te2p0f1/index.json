@@ -3,17 +3,23 @@
   "name": {
     "tr": "Sorular",
     "en": "FAQ",
-    "ar": "الأسئلة"
+    "ar": "الأسئلة",
+    "de": "FAQ",
+    "ru": "FAQ"
   },
   "description": {
     "tr": "Bir projeye başlamadan önce sorulanlar.",
     "en": "Questions asked before a project starts.",
-    "ar": "أسئلة تُطرح قبل بدء المشروع."
+    "ar": "أسئلة تُطرح قبل بدء المشروع.",
+    "de": "Fragen, die vor Projektbeginn gestellt werden.",
+    "ru": "Вопросы, которые задают перед началом проекта."
   },
   "keyword": {
     "tr": "sss, soru cevap",
     "en": "faq, questions",
-    "ar": "أسئلة وأجوبة"
+    "ar": "أسئلة وأجوبة",
+    "de": "FAQ, Fragen und Antworten",
+    "ru": "FAQ, вопросы и ответы"
   },
   "path": "sorular",
   "icon": "help",
@@ -32,7 +38,9 @@
   "title": {
     "tr": "Sorular",
     "en": "FAQ",
-    "ar": "الأسئلة"
+    "ar": "الأسئلة",
+    "de": "FAQ",
+    "ru": "FAQ"
   },
   "date": "2026-11-16T22:35:29.998Z",
   "update": "2026-11-16T23:11:36.810Z"

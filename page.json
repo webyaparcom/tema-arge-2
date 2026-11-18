@@ -5,12 +5,16 @@
       "name": {
         "tr": "Çalışmalar",
         "en": "Work",
-        "ar": "الأعمال"
+        "ar": "الأعمال",
+        "de": "Arbeiten",
+        "ru": "Работы"
       },
       "description": {
         "tr": "Laboratuvar düzenekleri ve iş ortağı notları.",
         "en": "Lab rigs and partner notes.",
-        "ar": "منصات المختبر وملاحظات الشركاء."
+        "ar": "منصات المختبر وملاحظات الشركاء.",
+        "de": "Laboreinrichtungen und Partnerhinweise.",
+        "ru": "Лабораторные установки и заметки партнеров."
       },
       "path": "hizmetler",
       "icon": "biotech",
@@ -30,7 +34,9 @@
       "name": {
         "tr": "Yazarlar",
         "en": "Writers",
-        "ar": "الكتّاب"
+        "ar": "الكتّاب",
+        "de": "Autoren",
+        "ru": "Авторы"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -50,7 +56,9 @@
       "description": {
         "tr": "Araştırmacılarımız ve yazdıkları deney notları (kurgusal).",
         "en": "Our researchers and the lab notes they write (fictional).",
-        "ar": "باحثونا والمذكرات المخبرية التي يكتبونها (افتراضي)."
+        "ar": "باحثونا والمذكرات المخبرية التي يكتبونها (افتراضي).",
+        "de": "Unsere Forschenden und ihre Versuchsnotizen (fiktiv).",
+        "ru": "Наши исследователи и их заметки об экспериментах (вымышленные)."
       }
     },
     {
@@ -58,12 +66,16 @@
       "name": {
         "tr": "Sorular",
         "en": "FAQ",
-        "ar": "الأسئلة"
+        "ar": "الأسئلة",
+        "de": "FAQ",
+        "ru": "FAQ"
       },
       "description": {
         "tr": "Bir projeye başlamadan önce sorulanlar.",
         "en": "Questions asked before a project starts.",
-        "ar": "أسئلة تُطرح قبل بدء المشروع."
+        "ar": "أسئلة تُطرح قبل بدء المشروع.",
+        "de": "Fragen, die vor Projektbeginn gestellt werden.",
+        "ru": "Вопросы, которые задают перед началом проекта."
       },
       "path": "sorular",
       "icon": "help",
@@ -82,7 +94,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -103,7 +117,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],
