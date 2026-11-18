@@ -2,7 +2,9 @@
   "name": {
     "tr": "Yazarlar",
     "en": "Writers",
-    "ar": "الكتّاب"
+    "ar": "الكتّاب",
+    "de": "Autoren",
+    "ru": "Авторы"
   },
   "status": "play",
   "category": "",
@@ -22,7 +24,9 @@
   "description": {
     "tr": "Araştırmacılarımız ve yazdıkları deney notları (kurgusal).",
     "en": "Our researchers and the lab notes they write (fictional).",
-    "ar": "باحثونا والمذكرات المخبرية التي يكتبونها (افتراضي)."
+    "ar": "باحثونا والمذكرات المخبرية التي يكتبونها (افتراضي).",
+    "de": "Unsere Forschenden und ihre Versuchsnotizen (fiktiv).",
+    "ru": "Наши исследователи и их заметки об экспериментах (вымышленные)."
   },
   "spot": {
     "tr": "",
@@ -33,12 +37,16 @@
   "title": {
     "tr": "Yazarlar",
     "en": "Writers",
-    "ar": "الكتّاب"
+    "ar": "الكتّاب",
+    "de": "Autoren",
+    "ru": "Авторы"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T23:11:36.799Z",

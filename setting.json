@@ -4,12 +4,16 @@
   "description": {
     "tr": "Mercek Lab: Urla, İzmir’de optik sensör, kamera kalibrasyonu ve görüntü işleme üzerine çalışan Ar-Ge laboratuvarı; her projeyi deney notu olarak yayımlar. Demo site; içerik kurgusaldır.",
     "en": "Mercek Lab: an R&D laboratory in Urla, Izmir working on optical sensors, camera calibration and image processing, publishing every project as a lab note. Demo site; content is fictional.",
-    "ar": "مختبر ميرجك: مختبر أبحاث وتطوير في أورلا بإزمير يعمل على المستشعرات البصرية ومعايرة الكاميرات ومعالجة الصور، وينشر كل مشروع كمذكرة مخبرية. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "مختبر ميرجك: مختبر أبحاث وتطوير في أورلا بإزمير يعمل على المستشعرات البصرية ومعايرة الكاميرات ومعالجة الصور، وينشر كل مشروع كمذكرة مخبرية. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Mercek Lab: ein F&E-Labor in Urla, İzmir, das an optischen Sensoren, Kamerakalibrierung und Bildverarbeitung arbeitet; jedes Projekt wird als Versuchsnotiz veröffentlicht. Demo-Website; der Inhalt ist fiktiv.",
+    "ru": "Mercek Lab: R&D-лаборатория в Урле, Измир, работающая над оптическими датчиками, калибровкой камер и обработкой изображений; каждый проект публикуется как заметка об эксперименте. Демо-сайт; содержание вымышлено."
   },
   "keyword": {
     "tr": "Ar-Ge, optik ölçüm, görüntü işleme, kamera kalibrasyonu, sensör, laboratuvar, Urla, İzmir",
     "en": "R&D, optical measurement, image processing, camera calibration, sensor, laboratory, Urla, Izmir",
-    "ar": "أبحاث وتطوير، قياس بصري، معالجة الصور، معايرة الكاميرا، مستشعر، مختبر، إزمير"
+    "ar": "أبحاث وتطوير، قياس بصري، معالجة الصور، معايرة الكاميرا، مستشعر، مختبر، إزمير",
+    "de": "F&E, optische Messung, Bildverarbeitung, Kamerakalibrierung, Sensor, Labor, Urla, Izmir",
+    "ru": "НИОКР, оптические измерения, обработка изображений, калибровка камер, датчик, лаборатория, Урла, Измир"
   },
   "category": "Kurumsal",
   "name": "Mercek Lab",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,
